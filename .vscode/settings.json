@@ -1,0 +1,44 @@
+{
+  // i18n Ally
+  "i18n-ally.localesPaths": ["messages"],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.displayLanguage": "zh",
+  "i18n-ally.editor.preferEditor": true,
+  "i18n-ally.sourceLanguage": "zh",
+  "i18n-ally.sortKeys": true,
+  // TODO Tree
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "IMPORTANT"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "XXX": {
+      "icon": "x"
+    },
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    },
+    "IMPORTANT": {
+      "background": "#ffeb3b",
+      "foreground": "#d32f2f"
+    }
+  }
+}

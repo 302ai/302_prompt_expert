@@ -1,0 +1,1 @@
+pnpm commitlint --config commitlint.config.mjs --edit

@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "csstools.postcss",
+    "mikestead.dotenv",
+    "EditorConfig.EditorConfig",
+    "lokalise.i18n-ally",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "gruntfuggly.todo-tree"
+  ],
+  "unwantedRecommendations": []
+}

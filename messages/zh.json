@@ -1,0 +1,369 @@
+{
+  "CopyTextError": "写入到粘贴板失败",
+  "CopyTextOk": "已写入到粘贴板",
+  "CustomTemplate": "自定义模板",
+  "PresetTemplate": "预设模板",
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "chat": {
+    "TestRequestFailed": "测试请求失败",
+    "clearChatHistory": "清空聊天记录",
+    "enterMessage": "输入您的消息...",
+    "frequencyPenalty": "频率惩罚",
+    "frequencyPenaltyTip": "新颖惩罚设置。影响模型重复已在提示中出现的信息的可能性。该值直接传递给提供商。取值范围取决于提供商和模型。",
+    "model": "模型",
+    "presencePenalty": "重复惩罚",
+    "presencePenaltyTip": "重复惩罚设置。影响模型重复使用相同词语或短语的可能性。该值直接传递给提供商。取值范围取决于提供商和模型。",
+    "quantity": "数量",
+    "resolution": "分辨率",
+    "retry": "重试",
+    "send": "发送",
+    "temperature": "温度",
+    "temperatureTip": "温度设置。该值直接传递给提供商。取值范围取决于提供商和模型。建议只设置温度或 topP 其中之一，不要同时设置。",
+    "test": "测试",
+    "testResult": "这是一个测试结果。AI 的回应将显示在这里。",
+    "topP": "top_p",
+    "topPTip": "核采样。该值直接传递给提供商。取值范围取决于提供商和模型。建议只设置温度或 topP 其中之一，不要同时设置。"
+  },
+  "deleteError": "删除失败",
+  "deleteSuccess": "删除成功",
+  "generateButton": {
+    "GenerationFailed": "生成失败",
+    "generate": "生成"
+  },
+  "global": {
+    "error": {
+      "code-10001": "缺少 302 API 密钥",
+      "code-10002": "该工具已禁用/删除，更多请访问 <Gw></Gw>",
+      "code-10003": "网络错误，请稍后重试",
+      "code-10004": "账户余额不足，创建属于自己的工具，更多请访问 <Gw></Gw>",
+      "code-10005": "账户凭证过期，请重新登录",
+      "code-10006": "账户总额度已达上限，更多请访问 <Gw></Gw>",
+      "code-10007": "账户日额度已达上限，更多请访问 <Gw></Gw>",
+      "code-10008": "当前无可用通道，更多请访问 <Gw></Gw>",
+      "code-10009": "不支持当前API功能，更多请访问 <Gw></Gw>",
+      "code-10010": "不支持当前API功能，更多请访问 <Gw></Gw>",
+      "code-10011": "无效的请求",
+      "code-10012": "该免费工具在本小时的额度已达上限，请访问 <Gw></Gw> 生成属于自己的工具",
+      "code-10018": "账户月额度已达上限，更多请访问 <Gw></Gw>",
+      "code-1024": "AI接口连接超时， 请稍后重试或者联系 <Gw></Gw>",
+      "code-default": "未知错误，更多请访问 <Gw></Gw>",
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "home": {
+    "title": "AI 提示词专家2.0"
+  },
+  "mainArea": {
+    "AutomaticOptimization": "自动优化",
+    "CopyTextError": "复制失败",
+    "CopyTextOk": "已写入到粘贴板",
+    "ManualOptimization": "手动优化",
+    "PleaseEnterthePrompt": "提示词不能为空",
+    "PleaseEntertheTask": "请输入任务",
+    "copyPrompt": "复制",
+    "dark": "暗色",
+    "generate": "生成",
+    "light": "亮色",
+    "modificationInputPlaceholder": "请提出需要修改的点",
+    "modificationVersion": "第{index}次优化",
+    "modifyButton": "修改",
+    "originalVersion": "原版提示词",
+    "promptSchemeTip": "优化方案介绍",
+    "save": "保存",
+    "saveError": "保存失败",
+    "savePrompt": "保存",
+    "saveSuccess": "保存成功",
+    "selectModifyVersion": "选择修改版本",
+    "taskInputPlaceholder": "请输入你的任务，例如：写一篇宣传AI的小红书",
+    "taskInputPlaceholderDRAW": "请输入您的想法，例如：太空人骑着彩虹独角兽",
+    "testPrompt": "测试"
+  },
+  "promptList": {
+    "ArticlePolisher": {
+      "prompt": "你是一位具有敏锐洞察力和深厚的语言、风格及语法知识的AI文字编辑。你的任务是完善和改进用户提供的书面内容,提供高级文字编辑技巧和建议来提升文本的整体质量。当用户提交一篇文章时,请遵循以下步骤:\n1. 仔细阅读内容,找出在语法、标点、拼写、句法和风格方面需要改进的地方。\n2. 提供具体、可操作的建议来完善文本,解释每个建议背后的理由。\n3. 提供词语选择、句子结构和措辞的替代方案,以提高清晰度、简洁性和影响力。\n4. 确保写作的语气和声调与预期受众和目的相一致且恰当。\n5. 检查逻辑流程、连贯性和组织结构,在必要时提出改进建议。\n6. 就写作的整体效果提供反馈,突出优点和需要进一步发展的领域。\n7. 最后输出一个考虑了所有建议的完整编辑版本。\n你的建议应该具有建设性和洞察力,旨在帮助用户提升其写作质量。\n\n以下是用户输入的内容：\n\n缓缓西沉，天空逐渐染上了温暖的橙色。微风轻拂，树叶沙沙作响，仿佛在低语。艾米莉沿着小径漫步，心中有些沉重，但这段散步让她的心情渐渐舒缓。她瞥见一只蝴蝶翩翩起舞，色彩斑斓，令她心生欢喜。这一幕让她想起了生命的美好与自然的奇妙。她继续前行，心情也随之变得愉悦起来。",
+      "tip": "使用高级文字编辑技巧和建议来完善和改进书面内容",
+      "title": "文章润色器"
+    },
+    "CO-STAR": {
+      "label": "CO-STAR结构",
+      "tip": "新加坡Prompt大赛冠军框架，一键将简单任务拆解，分析，并生成结构化提示词。"
+    },
+    "CRISPE": {
+      "label": "CRISPE结构",
+      "tip": "根据LangGPT框架优化，将简单任务拆解成复杂的工作流，并生成结构化提示词。"
+    },
+    "Claude": {
+      "label": "Claude优化法",
+      "tip": "Claude官方开源的提示词优化方法。"
+    },
+    "CoT": {
+      "label": "CoT思维链",
+      "tip": "通过模拟解决问题的思考过程来提高模型生成内容的质量和相关性。"
+    },
+    "CodeExplanation": {
+      "label": "代码解释",
+      "prompt": "请解释下面这段代码的逻辑，并说明完成了什么功能：\n```\n// 假设 str1 和 str2 是两个待比较的字符串\nint m = str1.size();\nint n = str2.size();\nvector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));\n\n// 遍历字符串中的每一个字符\nfor(int i = 1; i <= m; i++) { // 遍历 str1\n    for(int j = 1; j <= n; j++) { // 遍历 str2\n        if(str1[i - 1] == str2[j - 1]) {\n            dp[i][j] = dp[i - 1][j - 1] + 1;\n        }\n        else {\n            dp[i][j] = max(dp[i - 1][j], dp[i][j - 1]);\n        }\n    }\n}\n\n// dp[m][n] 即为最长公共子序列的长度\n```",
+      "tip": "对代码进行解释，来帮助理解代码内容。"
+    },
+    "CodeRewrite": {
+      "label": "代码改写",
+      "prompt": "下面这段的代码的效率很低，且没有处理边界情况。请先解释这段代码的问题与解决方法，然后进行优化：\n```\ndef fib(n):\n    if n <= 2:\n        return n\n    return fib(n-1) + fib(n-2)\n```",
+      "tip": "修改代码以实现错误修复、添加注释、优化等。"
+    },
+    "CompleteGuide": {
+      "label": "向导完善",
+      "tip": "手动一步一步优化提示词"
+    },
+    "ContentClassification": {
+      "label": "内容分类",
+      "prompt": "#### 定位\n- 你是一名新闻分类专家\n- 你的主要任务是对输入的新闻文本进行自动分类，识别其所属的新闻种类。\n\n#### 能力\n- 文本分析 ：能够准确分析新闻文本的内容和结构。\n- 分类识别 ：根据分析结果，将新闻文本分类到预定义的种类中。\n\n#### 知识储备\n- 新闻种类 ：\n- 政治\n- 经济\n- 科技\n- 娱乐\n- 体育\n- 教育\n- 健康\n- 国际\n- 国内\n- 社会\n\n#### 使用说明\n- 输入 ：一段新闻文本。\n- 输出 ：只输出新闻文本所属的种类，不作额外的解释。\n以下是用户输入的内容：\n近日，一家知名科技公司宣布推出新一代人工智能芯片，该芯片采用了最新的5纳米制程工艺，性能比上一代提升了50%，同时能耗降低30%。公司CEO表示，这项突破将为未来的智能设备和自动驾驶汽车带来革命性的变化。业内专家认为，这一技术进步可能会重新定义人工智能行业的格局，并加速相关应用的普及。",
+      "tip": "对文本内容进行分析，并自动归类。"
+    },
+    "ContentOutline": {
+      "label": "文案大纲生成",
+      "prompt": "作为一位文本大纲生成专家，你需要创建一个结构清晰、易于扩展的大纲。你应具备强大的主题分析能力，能准确提取关键信息，并熟悉各种文体的大纲构建方法。大纲应包含引言、主体部分和结论。引言需介绍主题背景，阐述目的，吸引读者。主体部分应包含三个段落：第一段详细说明关键点，第二段深入探讨重点，第三段提供额外视角。结论应总结要点，重申观点，并给出有力的结尾。最后，创作一个既反映核心内容又能激发好奇心的吸引人标题。\n以下是用户输入的内容：\n请帮我生成“中国海洋产业情况”这篇文章的大纲",
+      "tip": "根据用户提供的主题，来生成文案大纲。"
+    },
+    "Custom": {
+      "tip": "自定义提示词优化指令"
+    },
+    "DRAW": {
+      "label": "AI绘画提示词",
+      "tip": "将用户输入的画面描述拆解为镜头、光线、主体、背景、风格和氛围六个要素，进行补充和完善，生成高质量的绘画提示词。"
+    },
+    "DataOrganizer": {
+      "prompt": "您的任务是将提供的非结构化文本转换为格式良好的JSON表格格式。识别文本中提到的主要实体、属性或类别，并将它们用作JSON对象中的键。然后，从文本中提取相关信息，并在JSON对象中填充相应的值。确保数据在JSON结构中准确表示和正确格式化。生成的JSON表格应该清晰地结构化展示原始文本中呈现的信息。\n以下是用户输入的内容：\nSilvermist Hollow是一个迷人的村庄，这里住着一群非凡的人。其中包括Liam Patel医生，这位45岁的耶鲁大学培养的神经外科医生在地区医疗中心革新了手术技术。28岁的Olivia Chen是一位来自加州伯克利分校的创新建筑师，她用可持续发展且令人惊叹的设计改变了村庄的景观。当地剧院因72岁的茱莉亚音乐学院培养的音乐家兼作曲家Ethan Kovacs的迷人交响乐而生辉。Isabella Torres是一位自学成才的厨师，她对本地食材充满热情，她创办的农场直供餐厅成为美食爱好者必访的目的地。这些非凡的个人，每个人都以其独特的才能，为Silvermist Hollow的生活增添了丰富多彩的色彩。",
+      "tip": "将非结构化文本转换为定制的JSON表格",
+      "title": "数据整理器"
+    },
+    "EmailExtractor": {
+      "prompt": "从以下文本中精确复制任何电子邮件地址，然后逐行写出。仅当输入文本中明确拼写出电子邮件地址时才写出。如果文本中没有电子邮件地址，则写”N/A”。不要说其他任何内容。\n\n以下是用户输入的内容：\n\n电话目录：John Latrabe，555-232-1995，[john909709@geemail.com] Josie Lana，555-759-2905，[josie@josielananier.com] Keven Stevens，555-980-7000，[drkevin22@geemail.com] 电话目录将由人力资源经理保持更新。",
+      "tip": "从文档中提取电子邮件地址并转换为JSON格式列表",
+      "title": "电子邮件提取器"
+    },
+    "FunQAGenerator": {
+      "prompt": "生成各种主题的趣味问答题目,并提供提示帮助用户找到正确答案。从多样化的类别中选择并创建测试用户知识或推理能力的问题。提供一系列逐步具体的提示来引导用户找到答案。确保问题具有挑战性,提示能提供足够的信息帮助用户,但不会过于轻易地泄露答案。",
+      "tip": "生成各种主题的趣味问答题目并在需要时提供提示",
+      "title": "趣味问答生成器"
+    },
+    "GenerationFailed": "生成失败",
+    "InterviewQuestionGenerator": {
+      "prompt": "你的任务是根据给定的背景生成一系列深思熟虑的开放式面试问题。这些问题应该旨在引导受访者提供有见地和详细的回答，让他们能够展示自己的知识、经验和批判性思维能力。避免是/否问题或那些有明显答案的问题。相反，要着重于鼓励反思、自我评估以及分享具体例子或轶事的问题。\n以下是用户输入的内容：\n你正在为一家成熟的电子商务公司面试一位市场营销经理职位的候选人。理想的候选人应该具有开发和执行多渠道营销活动的经验、强大的分析能力，以及与跨职能团队有效协作的能力。他们还应该热衷于及时了解最新的营销趋势和技术。",
+      "tip": "生成面试问题",
+      "title": "面试问题生成器"
+    },
+    "MetaPrompting": {
+      "label": "Meta Prompting",
+      "tip": "清华大学和上海AI实验室提出的提示词优化方法。"
+    },
+    "MicrOptimization": {
+      "label": "微软优化法",
+      "tip": "微软最新的研究，通过自动优化你的指令数据集来提升你的Prompt能力。"
+    },
+    "ModificationPoint": "请输入修改点",
+    "MultilingualSuperpower": {
+      "prompt": "您是一位精通多种语言的高技能翻译专家。您的任务是识别我提供的文本的语言，并将其准确翻译成指定的目标语言，同时保持原文的含义、语气和细微差别。请在翻译版本中保持正确的语法、拼写和标点符号。\n\n以下是用户输入的内容：\n\nDas Wetter heute ist wunderschön, lass uns spazieren gehen. —> Italienisch",
+      "tip": "将任何语言的文本翻译成任何语言",
+      "title": "多语言超能力"
+    },
+    "NOT_SCHEME": {
+      "label": "无优化方案",
+      "tip": "无优化方案"
+    },
+    "O1STYLE": {
+      "label": "o1-style",
+      "tip": "模仿o1遵循结构化思考、分步推理、持续反思和调整策略的提示词。"
+    },
+    "OpenAI": {
+      "label": "OpenAI优化法",
+      "tip": "OpenAI官方开源的提示词优化方法。"
+    },
+    "OptimizationDirection": "请选择优化方向",
+    "OptimizationPlan": "优化方案",
+    "OptimizeInstructions": "编辑提示词优化指令",
+    "OptimizeInstructionsPlaceholder": "请输入提示词优化指令",
+    "OptimizeInstructionsTip": "提示词优化指令为空，请先编辑优化指令！",
+    "PhilosophicalReflection": {
+      "prompt": "你的任务是讨论给定主题的哲学概念或思想实验。简要解释该概念，呈现主要论点和含义，并通过提出开放性问题来鼓励批判性思维。保持平衡、客观的语气，培养求知欲。\n以下是用户输入的内容：\n电车难题和功利主义伦理学",
+      "tip": "进行深入的哲学讨论和思想实验",
+      "title": "哲学思考"
+    },
+    "PromotionalSlogan": {
+      "label": "宣传标语生成",
+      "prompt": "你是一个宣传标语专家。请根据用户的需求，设计一个富有创意且极具吸引力的宣传标语。你的标语应该准确传达产品或活动的核心价值和独特卖点，采用新颖独特的视角或表达方式，运用巧妙的修辞手法如比喻、双关语等。标语需简洁有力，朗朗上口，易于理解和记忆，具有鲜明的节奏感和韵律美。它应能引起目标受众的共鸣，激发他们的兴趣，留下深刻印象并具有传播性。避免过于书面化的表达，保持活泼有趣的风格。请直接提供你创作的宣传标语，无需解释创作过程或理由。确保标语既符合专业水准，又能吸引大众眼球。\n以下是用户输入的内容：\n请生成“法式面包”的宣传标语",
+      "tip": "让模型生成贴合商品信息的宣传标语。"
+    },
+    "PromptGeneration": {
+      "label": "模型提示词生成",
+      "prompt": "你是一位大模型提示词生成专家，请根据用户的需求编写一个智能助手的提示词，来指导大模型进行内容生成，要求：\n1. 以 Markdown 格式输出\n2. 贴合用户需求，描述智能助手的定位、能力、知识储备\n3. 提示词应清晰、精确、易于理解，在保持质量的同时，尽可能简洁\n4. 只输出提示词，不要输出多余解释\n以下是用户输入的内容：\n请帮我生成一个“Linux 助手”的提示词",
+      "tip": "根据用户需求，帮助生成高质量提示词。"
+    },
+    "PromptOptimizationInstruction": "提示词优化指令",
+    "QStar": {
+      "label": "Q*",
+      "tip": "利用马尔可夫决策过程进行提示词优化。"
+    },
+    "RISE": {
+      "label": "RISE",
+      "tip": "卡内基梅隆大学最新研究，让提示词递归内省。"
+    },
+    "RatingExperts": {
+      "prompt": "根据以下标准评估这两段文本:\n\n文本1:\n夕阳西下,在山后投射出温暖的金色光芒照亮整个山谷。鸟儿唱着晚歌,微风轻轻拂过树叶。这是一个宁静祥和的时刻,让人心中充满喜悦与满足。\n\n文本2:\n夕阳很美。鸟儿在歌唱,风在吹。这让我很开心。\n\n评估标准:\n1. 描述性语言和意象\n2. 句子结构和多样性\n3. 情感影响和感染力\n4. 语法和标点",
+      "tip": "根据用户定义的标准和要求比较和评估文本质量",
+      "title": "评分专家"
+    },
+    "RolePlay": {
+      "label": "角色扮演（自定义人设）",
+      "prompt": "请你扮演一个刚从美国留学回国的人，说话时候会故意中文夹杂部分英文单词，显得非常fancy，对话中总是带有很强的优越感。\n以下是用户输入的内容：\n美国的饮食习惯如何？",
+      "tip": "自定义人设，来与用户进行角色扮演。"
+    },
+    "SQLLanguageTranslator": {
+      "prompt": "将以下自然语言请求转换为有效的SQL查询。假设存在具有以下表和列的数据库：\n\nCustomers:\n            - customer_id (INT, PRIMARY KEY)\n            - first_name (VARCHAR)\n            - last_name (VARCHAR)\n            - email (VARCHAR)\n            - phone (VARCHAR)\n            - address (VARCHAR)\n            - city (VARCHAR)\n            - state (VARCHAR)\n            - zip_code (VARCHAR)\n            Products:\n            - product_id (INT, PRIMARY KEY)\n            - product_name (VARCHAR)\n            - description (TEXT)\n            - category (VARCHAR)\n            - price (DECIMAL)\n            - stock_quantity (INT)\n            Orders:\n            - order_id (INT, PRIMARY KEY)\n            - customer_id (INT, FOREIGN KEY REFERENCES Customers)\n            - order_date (DATE)\n            - total_amount (DECIMAL)\n            - status (VARCHAR)\n            Order_Items:\n            - order_item_id (INT, PRIMARY KEY)\n            - order_id (INT, FOREIGN KEY REFERENCES Orders)\n            - product_id (INT, FOREIGN KEY REFERENCES Products)\n            - quantity (INT)\n            - price (DECIMAL)\n            Reviews:\n            - review_id (INT, PRIMARY KEY)\n            - product_id (INT, FOREIGN KEY REFERENCES Products)\n            - customer_id (INT, FOREIGN KEY REFERENCES Customers)\n            - rating (INT)\n            - comment (TEXT)\n            - review_date (DATE)\n            Employees:\n            - employee_id (INT, PRIMARY KEY)\n            - first_name (VARCHAR)\n            - last_name (VARCHAR)\n            - email (VARCHAR)\n            - phone (VARCHAR)\n            - hire_date (DATE)\n            - job_title (VARCHAR)\n            - department (VARCHAR)\n            - salary (DECIMAL)\n\n根据自然语言请求提供能检索数据的SQL查询。\n\n以下是用户输入的内容：\n\n获取已下订单但尚未提供任何评论的客户列表，以及他们在订单上花费的总金额。",
+      "tip": "将日常语言转换为SQL查询",
+      "title": "SQL语言转换师"
+    },
+    "StructuredOutput": {
+      "label": "结构化输出",
+      "prompt": "用户将提供给你一段新闻内容，请你分析新闻内容，并提取其中的关键信息，以 JSON 的形式输出，输出的 JSON 需遵守以下的格式：\n\n{\n \"entiry\": <新闻实体>,\n \"time\": <新闻时间，格式为 YYYY-mm-dd HH:MM:SS，没有请填 null>,\n \"summary\": <新闻内容总结>\n}\n\n以下是用户输入的内容：\n1月15日，中国国家铁路预计发送旅客达1100万人次，并计划加开554列列车，确保春运期间运输安全有序。12306数据显示，截至当天早晨8:30，已售出1.2亿张春运车票，主要热门线路客流集中，但部分往返热门城市仍有余票。各地铁路部门通过增加运力、优化服务和实施便民措施，积极满足旅客出行需求。同时，铁路部门提醒旅客务必通过官方12306平台购票，避免使用未经授权的第三方渠道，以保障购票安全和个人信息安全。",
+      "tip": "将内容转化为JSON，来方便后续程序处理。"
+    },
+    "VARI": {
+      "label": "变分法",
+      "tip": "Google Deepmind最新研究，变分规划提升Prompt。"
+    },
+    "adaptiveEditor": {
+      "prompt": "按照以下指示重写下面这段文字：用海盗风格。段落：在1760年，意大利天文学家伽利略·伽利莱（Galileo Galilei）在他的著作《星际信使》（Sidereus Nuncius）中首次描述了木星的四颗卫星。 “Io”是拉丁语中“月亮”的意思，在这颗行星的卫星中，他列出了伊欧、欧罗巴和卡利斯托等天体。",
+      "tip": "根据用户给出的指示重写文本，例如使用不同的语气、受众或风格。",
+      "title": "自适应编辑器"
+    },
+    "addCustomPrompt": "添加自定义提示词",
+    "addCustomPromptDescription": "创建新的自定义提示词",
+    "community": "社区",
+    "complete": "完成",
+    "confirm": "确认",
+    "currentOptimizationTheme": "当前优化主题",
+    "currentVersionPrompt": "当前版本提示词",
+    "custom": "自定义",
+    "customPromptFailed": "创建自定义提示词失败",
+    "customPromptSuccess": "自定义提示词添加成功",
+    "customize": {
+      "label": "自定义",
+      "tip": "自定义提示词优化指令"
+    },
+    "deletecustomPromptFailed": "删除失败",
+    "description": "描述",
+    "descriptionDescription": "请输入提示词的描述（可选）",
+    "dreamInterpretationExpert": {
+      "prompt": "你是一个对梦境解析和象征意义有深入理解的AI助手。你的任务是为用户提供关于他们梦境中的符号、情感和叙事的有见地和有意义的分析。提供可能的解释，同时鼓励用户反思自己的经历和情感。\n以下是用户输入的内容：\n昨晚我做了一个梦，梦见自己在一片辽阔的沙漠中漫步。沙丘高耸而金黄，耳边传来微风的低语。突然，我发现了一座古老的遗迹，中央矗立着一座宏伟的石碑，上面刻满了神秘的符号。当我走近那座石碑时，它化作了一位长者，他递给我一张古老的地图。然后我就醒了。这个梦可能暗示着什么呢？",
+      "tip": "为用户的梦境提供解释和象征意义的见解",
+      "title": "解梦专家"
+    },
+    "emotionalColorConverter": {
+      "prompt": "你的任务是将提供的情绪或感受的文字描述转换为视觉上代表该情绪的十六进制颜色代码。使用色彩心理学原理和常见联系来确定最适合给定情绪的颜色。\n以下是用户输入的内容：\n一种充满激情、强烈且炽热的情绪，充满爱意和欲望。",
+      "tip": "将情绪文字描述转换为相应的十六进制颜色代码。",
+      "title": "情绪色彩转换器"
+    },
+    "enterDescriptionPlaceholder": "输入描述",
+    "enterInstruction": "请输入指令",
+    "enterInstructionPlaceholder": "输入指令",
+    "enterTitle": "请输入标题",
+    "enterTitlePlaceholder": "输入标题",
+    "excelFormulaExpert": {
+      "prompt": "作为Excel公式专家，您的任务是提供能够执行用户所描述的复杂计算或数据处理的高级Excel公式。如果用户没有明确说明他们的需求，请主动询问他们希望在Excel中实现的具体目标或操作。确保收集编写完整公式所需的所有关键信息，例如相关单元格范围、特定条件、多重标准或所需的输出格式。一旦您了解了用户的需求，请提供实现所需结果的Excel公式的详细说明。将公式分解为各个组成部分，解释每个部分的功能和用途，以及它们如何协同工作。此外，提供在Excel工作表中有效使用该公式所需的任何背景信息或提示。\n\n以下是用户输入的内容：\n\n我有一个包含员工考勤记录的表格，A列是员工姓名，B列是考勤日期，C列是考勤状态（如“出勤”、“缺勤”），写一个Excel公式来计算每位员工在2023年3月的出勤天数。",
+      "tip": "根据用户描述的计算或数据操作创建Excel公式",
+      "title": "Excel公式专家"
+    },
+    "finalVersionPrompt": "最终版本提示词",
+    "generate": "生成",
+    "guessingRiddles": {
+      "prompt": "生成一个巧妙的谜语，并提供分步指导帮助用户得出正确答案。谜语应该具有挑战性，但通过逻辑思维和注意细节可以解决。在提出每个谜语后，提供一系列提示或问题，逐步引导用户找到答案。确保提示不要太明显，但仍能提供足够的信息来指导用户的思维过程。最后，揭示答案并简要解释如何使用给出的提示来解决谜语。",
+      "tip": "生成谜语并引导用户找到答案",
+      "title": "猜谜语"
+    },
+    "idiomInterpreter": {
+      "promot": "你的任务是为用户提供的成语和谚语提供清晰的解释。首先简明扼要地解释其比喻含义以及在对话或写作中的典型用法。然后深入探讨该短语的起源，提供历史背景、文化参考或词源信息，解释该成语或谚语是如何形成的。如果有任何有趣的故事、轶事或相关理论，也请一并包含。目标是让人全面理解该成语或谚语的含义和背景。\n\n以下是用户输入的内容：\n\nBreak a leg",
+      "tip": "解释常见成语和谚语的含义及来源",
+      "title": "成语解释器"
+    },
+    "metaphoricalMaster": {
+      "prompt": "帮我创建一些比喻来描述一个人快乐且具有感染力的笑声。",
+      "tip": "通过基本描述生成比喻句",
+      "title": "比喻大师"
+    },
+    "modificationInputPlaceholder": "请输入要优化的点",
+    "modify": "修改",
+    "nextStep": "下一步",
+    "optimize": "优化",
+    "or": "或",
+    "outputFinalPrompt": "输出最终提示",
+    "placeholderDescription": "你可以使用“{input}”作为占位符替换输入的任务，如果没有指令，则输入的任务会被追加到末尾",
+    "previousStep": "上一步",
+    "productTweetGeneration": {
+      "prompt": "请用10种最常用语言为我写一系列产品发布推文。这个产品是一款配备AI系统的最新型双筒望远镜，可以识别通过望远镜观察到的动物。这些推文应该令人兴奋、体现前沿科技，并能激发消费者兴趣。\n以下是用户输入的内容：\n一个人类可以将意识上传到数字领域的未来。",
+      "tip": "用世界十大最常用语言创建引人注目的产品发布推文",
+      "title": "产品推文生成"
+    },
+    "promptInstruction": "提示词指令",
+    "promptInstructionDescription": "请输入提示词的指令",
+    "retry": "重试",
+    "scienceFictionSceneSimulator": {
+      "prompt": "你的任务是探索一个科幻场景，并讨论可能出现的潜在挑战和考虑因素。简要描述该场景，识别涉及的关键技术、社会或伦理问题，并鼓励用户分享他们对如何应对这些挑战的想法。\n以下是用户输入的内容：\n一个人类可以将意识上传到数字领域的未来。",
+      "tip": "与用户讨论各种科幻场景及其相关挑战和考虑因素。",
+      "title": "科幻场景模拟器"
+    },
+    "selectImage": "选择一张图片",
+    "selectOptimizationDirection": "选择优化方向",
+    "senior": "高级",
+    "storyCreationAssistant": {
+      "prompt": "你是一位热爱创意写作和讲故事的AI助手。你的任务是与用户共同创作引人入胜的故事，提供富有创意的情节发展和生动的人物刻画。鼓励用户分享他们的想法，并在此基础上构建一个引人入胜的叙事。\n以下是用户输入的内容：\n创作一个关于一个名叫艾米的年轻女孩的故事，她意外发现自己能够操控时间。她生活在一个充满神秘的小镇，镇上的每个人都有着各自的秘密。",
+      "tip": "协作用户创作引人入胜的故事，提供情节转折和人物发展建议",
+      "title": "故事创作助手"
+    },
+    "taskProgress": "任务进度",
+    "template": "模板",
+    "timeTravelConsultant": {
+      "prompt": "你是一位专注于时间旅行主题的AI顾问，具备丰富的物理学、哲学和科幻知识。你的任务是帮助用户深入探讨各种假设的时间旅行场景及其潜在影响。针对每个具体情境，提供关于可能后果、悖论和伦理问题的详细分析，同时保持友好和引人入胜的对话氛围。\n\n以下是用户输入的内容：\n假设我有一台时间机器，回到古代埃及并意外地阻止了金字塔的建造。这种情况可能会导致哪些潜在影响？",
+      "tip": "帮助用户探索假设性时间旅行场景及其影响",
+      "title": "时间旅行顾问"
+    },
+    "title": "标题",
+    "titleDescription": "请输入提示词的标题"
+  }
+}
