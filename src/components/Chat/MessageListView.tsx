@@ -3,15 +3,16 @@ import { useAtom } from "jotai";
 import html2md from "html-to-md";
 import { Button } from "../ui/button";
 import { Loader2 } from "lucide-react";
-import { userConfigAtom } from "@/stores";
 import { IoReload } from "react-icons/io5";
 import { useTranslations } from "next-intl";
 import { LuDownload } from "react-icons/lu";
+import { RiRobot2Line } from "react-icons/ri";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { MarkdownViewer } from "./MarkdownViewer";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { useEffect, useRef, useState } from "react";
 import { MdOutlineUnfoldLess } from "react-icons/md";
+import { appConfigAtom, userConfigAtom } from "@/stores";
 import { MdContentCopy, MdOutlineUnfoldMore } from "react-icons/md";
 import { clearPerformStatusData, deleteData, IChat } from "./indexDB";
 import { useMonitorMessage } from "@/hooks/global/use-monitor-message";
@@ -21,6 +22,7 @@ export const MessageListView = (props: { onRetry: (type: 'painting' | 'chat', ch
   const { handleDownload } = useMonitorMessage()
   const { onRetry } = props;
 
+  const [{ hideBrand }] = useAtom(appConfigAtom);
   const [{ chatData, chatScroll, isChat }, setConfig] = useAtom(userConfigAtom);
   const [collapsedState, setCollapsedState] = useState<Record<string, boolean>>({});
 
@@ -68,8 +70,8 @@ export const MessageListView = (props: { onRetry: (type: 'painting' | 'chat', ch
       <div className={`flex flex-col gap-4 border p-2 ${item.role === 'user' && 'bg-[#8e47f005]'}`} key={item.uid} >
         <div className={`flex items-start gap-2 rounded-sm`}>
           {item.role === 'user' ?
-            <FaRegCircleUser /> :
-            <img src="/images/global/logo-mini.png" className="w-[25px]" />
+            <FaRegCircleUser /> : hideBrand ? <RiRobot2Line /> :
+              <img src="/images/global/logo-mini.png" className="w-[25px]" />
           }
           <div ref={chatRef} className={`relative overflow-hidden transition-all duration-100 ${isCollapsed && 'max-h-6'}`}>
             {

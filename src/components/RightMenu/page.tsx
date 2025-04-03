@@ -25,11 +25,11 @@ export const RightMenu = () => {
   const onChoosePrompt = (item: ICustomPrompt | IPresetsPromptList) => {
     useConfig((v) => ({
       ...v,
+      spoResultData:null,
       currentRecord: {
         id: 1,
         value: item.prompt,
         isOriginalEdition: true,
-
       },
       modifyRecord: [{
         id: 1,

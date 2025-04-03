@@ -351,6 +351,10 @@
     "selectImage": "Select a picture",
     "selectOptimizationDirection": "Select Optimization Direction",
     "senior": "Advanced",
+    "spo": {
+      "label": "Spo optimization method",
+      "tip": "Open source tip word optimization method for the Hong Kong University of Science and Technology and DeepWisdom team"
+    },
     "storyCreationAssistant": {
       "prompt": "You are an AI assistant who loves creative writing and storytelling. \nYour task is to create compelling stories with users, providing creative plot developments and vivid character portrayals. \nEncourage users to share their ideas and build a engaging narrative based on this.\n\nThe following is what the user inputs:\n\nCreating a story about a young girl named Amy, she accidentally finds herself able to manipulate time. \nShe lives in a town full of mystery, and everyone in the town has their own secrets.",
       "tip": "Collaborate users to create compelling stories that provide plot twists and character development advice",
@@ -365,5 +369,28 @@
     },
     "title": "Title",
     "titleDescription": "Enter the title for your prompt"
+  },
+  "qaExample": {
+    "addItem": "Add Item",
+    "answer": "Answer：",
+    "configureAtLeastOne": "Please configure at least one Q&A example",
+    "max_rounds": "Maximum number of optimization rounds (minimum value 2, maximum value 99)",
+    "max_rounds_tips": "Please enter a number between 2 and 99",
+    "optimizationParameter": "Set optimization parameters",
+    "question": "Question：",
+    "setQAExample": "Question and answer example"
+  },
+  "spoOptimize": {
+    "GenerationFailed": "Optimization failed",
+    "ObtainResults": "Continue to get optimization results",
+    "ReOptimize": "Re-optimize",
+    "best_prompt": "Best Tips",
+    "cancel": "Cancel",
+    "configureAtLeastOne": "Please configure at least one Q&A example",
+    "optimize": "Optimization",
+    "optimize_tips": "Optimization is being done, the spo optimization process is relatively long, please wait patiently",
+    "optimize_tips_success": "Optimization is completed, please select the appropriate prompt word",
+    "optimizingProgress": "Optimizing",
+    "use_prompt": "Use"
   }
 }

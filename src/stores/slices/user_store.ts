@@ -11,7 +11,22 @@ export type ICustomPrompt = {
 export interface IModifyRecord {
     id: number;
     value: string;
+    taskId?: string;
     isOriginalEdition?: boolean;
+    status?: "fail" | "processing" | "queue" | "success" | "apikeyFail";
+}
+
+export interface ISpoResultData {
+    best_prompt?: string;
+    best_round?: number;
+    error?: any;
+    round_data_list?: {
+        round: number,
+        prompt: string,
+        sample: [],
+        success: boolean
+    }[]
+    status: "fail" | "processing" | "queue" | "success" | "apikeyFail";
 }
 
 export type UserConfigState = {
@@ -55,6 +70,14 @@ export type UserConfigState = {
     modifyValue: string;
     // 切换模板
     templateTab: number;
+    // spo问答示例
+    qaExample: {
+        id: string;
+        answer: string;
+        question: string;
+    }[];
+    spoResultData: ISpoResultData | null;
+    max_rounds: string;
 };
 
 export const userConfigAtom = atomWithStorage<UserConfigState>(
@@ -90,7 +113,10 @@ export const userConfigAtom = atomWithStorage<UserConfigState>(
         customPromptWords: '',
         modifyValue: '',
         templateTab: 0,
-        paintingModel:'flux-pro-v1.1',
+        paintingModel: 'flux-pro-v1.1',
+        qaExample: [],
+        spoResultData: null,
+        max_rounds: '5',
     },
     createJSONStorage(() =>
         typeof window !== "undefined"

@@ -21,6 +21,8 @@ import { useCreatePromptLists } from "../RightMenu/constan"
 import useDataSynchronization from "@/hooks/dataSynchronization"
 import { markdown, markdownLanguage } from "@codemirror/lang-markdown"
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "../ui/select"
+import { SpoOptimize } from "./spoOptimize"
+import { QAExample } from "./QAExample"
 
 const internationalModel = [
     'gpt-4o',
@@ -231,6 +233,7 @@ export const MainArea = () => {
                             {RenderingModels}
                             {promptScheme === 'Customize' && <CustomPromptWords />}
                             {promptScheme === 'DRAW' && <GeneratePop type='painting' />}
+                            {promptScheme === 'spo' && <QAExample />}
                         </div>
                         <p className="text-xs text-slate-500 break-words">
                             <strong className="text-sm text-slate-700">{t('promptSchemeTip')}：</strong>
@@ -249,7 +252,11 @@ export const MainArea = () => {
                     />
                 }
                 <div className="w-full flex justify-end">
-                    <GeneratePop type={tab === 1 ? 'modify' : 'generate'} />
+                    {
+                        promptScheme === 'spo' ?
+                            <SpoOptimize /> :
+                            <GeneratePop type={tab === 1 ? 'modify' : 'generate'} />
+                    }
                 </div>
             </div>
             <div className={`flex items-center bg-background flex-wrap gap-2 border px-4 py-3 ${width <= 550 ? 'justify-center' : 'justify-between'}`}>

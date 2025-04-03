@@ -351,6 +351,11 @@
     "selectImage": "选择一张图片",
     "selectOptimizationDirection": "选择优化方向",
     "senior": "高级",
+    "spo": {
+      "label": "Spo优化法",
+      "optimizeTips": "正在优化中，请耐心等待。。。",
+      "tip": "香港科技大学和DeepWisdom团队开源的提示词优化方法"
+    },
     "storyCreationAssistant": {
       "prompt": "你是一位热爱创意写作和讲故事的AI助手。你的任务是与用户共同创作引人入胜的故事，提供富有创意的情节发展和生动的人物刻画。鼓励用户分享他们的想法，并在此基础上构建一个引人入胜的叙事。\n以下是用户输入的内容：\n创作一个关于一个名叫艾米的年轻女孩的故事，她意外发现自己能够操控时间。她生活在一个充满神秘的小镇，镇上的每个人都有着各自的秘密。",
       "tip": "协作用户创作引人入胜的故事，提供情节转折和人物发展建议",
@@ -365,5 +370,28 @@
     },
     "title": "标题",
     "titleDescription": "请输入提示词的标题"
+  },
+  "qaExample": {
+    "addItem": "添加一项",
+    "answer": "答：",
+    "configureAtLeastOne": "请配置至少一个问答示例",
+    "max_rounds": "最大优化轮数(最小值2，最大值99)",
+    "max_rounds_tips": "请输入 2 到 99 之间的数字",
+    "optimizationParameter": "设置优化参数",
+    "question": "问：",
+    "setQAExample": "问答示例"
+  },
+  "spoOptimize": {
+    "GenerationFailed": "优化失败",
+    "ObtainResults": "继续获取优化结果",
+    "ReOptimize": "重新优化",
+    "best_prompt": "最佳提示词",
+    "cancel": "取消",
+    "configureAtLeastOne": "请配置至少一个问答示例",
+    "optimize": "优化",
+    "optimize_tips": "正在优化，spo优化过程比较漫长，请耐心等待",
+    "optimize_tips_success": "优化完成，请选择使用合适的提示词",
+    "optimizingProgress": "优化中",
+    "use_prompt": "使用"
   }
 }

@@ -98,6 +98,11 @@ export const useCreatePromptLists = () => {
             tip: t('Claude.tip')
         },
         {
+            value: 'spo',
+            lable: t('spo.label'),
+            tip: t('spo.tip')
+        },
+        {
             value: 'DRAW',
             lable: t('DRAW.label'),
             tip: t('DRAW.tip')

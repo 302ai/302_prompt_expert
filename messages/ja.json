@@ -351,6 +351,10 @@
     "selectImage": "写真を選択します",
     "selectOptimizationDirection": "最適化の方向を選択",
     "senior": "高度な",
+    "spo": {
+      "label": "SPO最適化方法",
+      "tip": "香港科学技術大学およびディープウィズダムチームのためのオープンソースのヒントワード最適化方法"
+    },
     "storyCreationAssistant": {
       "prompt": "あなたは創造的な執筆とストーリーテリングが大好きなAIアシスタントです。\nあなたの仕事は、ユーザーと魅力的なストーリーを作成し、創造的なプロット開発と鮮明なキャラクターの描写を提供することです。\nユーザーが自分のアイデアを共有し、これに基づいて魅力的な物語を構築するように奨励します。\n\n以下は、ユーザーが入力するものです。\n\nエイミーという名前の若い女の子についての物語を作成すると、彼女は誤って時間を操作できることに気づきます。\n彼女は謎に満ちた町に住んでおり、町の誰もが自分の秘密を持っています。",
       "tip": "ユーザーを協力して、プロットのねじれやキャラクター開発のアドバイスを提供する魅力的なストーリーを作成する",
@@ -365,5 +369,28 @@
     },
     "title": "タイトル",
     "titleDescription": "プロンプトのタイトルを入力してください"
+  },
+  "qaExample": {
+    "addItem": "項目を追加",
+    "answer": "回答：",
+    "configureAtLeastOne": "少なくとも1つのQ&A例を設定してください",
+    "max_rounds": "最適化ラウンドの最大数（最小値2、最大値99）",
+    "max_rounds_tips": "2〜99の数字を入力してください",
+    "optimizationParameter": "最適化パラメーターを設定します",
+    "question": "質問：",
+    "setQAExample": "質問と回答の例"
+  },
+  "spoOptimize": {
+    "GenerationFailed": "最適化に失敗しました",
+    "ObtainResults": "引き続き最適化の結果を得てください",
+    "ReOptimize": "再最適化します",
+    "best_prompt": "最高のヒント",
+    "cancel": "キャンセル",
+    "configureAtLeastOne": "少なくとも1つのQ＆A例を構成してください",
+    "optimize": "最適化",
+    "optimize_tips": "最適化が行われています、SPO最適化プロセスは比較的長いです。辛抱強く待ってください",
+    "optimize_tips_success": "最適化が完了しました。適切な迅速な単語を選択してください",
+    "optimizingProgress": "最適化",
+    "use_prompt": "使用"
   }
 }
