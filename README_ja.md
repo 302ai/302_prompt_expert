@@ -2,13 +2,13 @@
 
 <p align="center">AIプロンプトワードエキスパート2.0は、シンプルな説明から専門的なプロンプトを生成し、複数のプリセットテンプレートとカスタムテンプレートを提供し、オンラインでの最適化とテストが可能で、AIガイドを使用してステップバイステップでプロンプトを改善することができます。</p>
 
-<p align="center"><a href="https://302.ai/ja/tools/prompt/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/60" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![インターフェースプレビュー](docs/302_AI_Prompt_Expert_2.0_jp.png)
 
-これは[302.AI](https://302.ai/ja/)の[AIプロンプトワードエキスパート2.0](https://302.ai/ja/tools/prompt/)のオープンソース版です。
+これは[302.AI](https://302.ai/ja/)の[AIプロンプトワードエキスパート2.0](https://302.ai/product/detail/60)のオープンソース版です。
 302.AIに直接ログインして、コーディング不要で設定不要のオンラインバージョンをご利用いただけます。
 また、このプロジェクトをご自身のニーズに合わせて修正し、302.AIのAPI KEYを設定して独自にデプロイすることも可能です。
 

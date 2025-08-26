@@ -2,13 +2,13 @@
 
 <p align="center">AI提示词专家2.0根据简单的描述生成专业的提示词，提供多种预设模板和自定义模板可选，并且可以在线优化和测试提示词效果，还可以使用AI向导完善，一步一步优化提示词。</p>
 
-<p align="center"><a href="https://302.ai/tools/prompt/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/60" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![界面预览](docs/302_AI_Prompt_Expert_2.0.png)
 
-来自[302.AI](https://302.ai)的[AI 提示词专家2.0](https://302.ai/tools/prompt/)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
+来自[302.AI](https://302.ai)的[AI 提示词专家2.0](https://302.ai/product/detail/60)的开源版本。你可以直接登录302.AI，零代码零配置使用在线版本。或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
 只需输入简单的描述，AI就能生成高质量的提示词，并且支持在线优化和测试提示词。提供多种预设模板和自定义模板可选，满足您的要求。
